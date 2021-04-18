@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topmenu {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    background-color: #345;
+    color: white;
+}
+
+.web-name {
+    font-size: 1.5rem;
+    margin: .3rem;
+}
+
+.topmenu-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.topmenu-links li {
+    list-style: none;
+}
+
+.topmenu-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.topmenu-links li:hover {
+    background-color: #555;
+}
